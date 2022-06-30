@@ -1,0 +1,6 @@
+termcolor
+requests
+beautifulsoup4
+tqdm
+lxml
+pymongo[srv]
