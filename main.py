@@ -100,8 +100,8 @@ class Scrapper():
 
 
 def connect_to_db():
-    username = urllib.parse.quote_plus("admin")
-    password = urllib.parse.quote_plus("dharmi123")
+    username = urllib.parse.quote_plus("")
+    password = urllib.parse.quote_plus("")
     host = 'localhost'
     uri = 'mongodb'
     client = MongoClient('%s://%s:%s@%s' %
